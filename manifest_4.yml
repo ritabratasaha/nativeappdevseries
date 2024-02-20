@@ -1,0 +1,15 @@
+manifest_version: 1
+artifacts:
+  setup_script: scripts/setup_4_datashare_consumer.sql
+  readme : readme.md  
+
+
+references:
+  - housing_data:
+      label: "housing_data" 
+      description: "Select table"
+      privileges:
+        - SELECT
+      object_type: Table 
+      multi_valued: false 
+      register_callback: core.update_reference 

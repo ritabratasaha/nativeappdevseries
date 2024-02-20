@@ -1,0 +1,4 @@
+manifest_version: 1
+artifacts:
+  setup_script: scripts/setup_2_datashare_provider.sql
+  readme : readme.md  
