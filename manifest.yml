@@ -1,4 +1,7 @@
 manifest_version: 1
 artifacts:
-  setup_script: scripts/setup_6_app_upgrade_v2.sql
+  setup_script: scripts/setup_7_troubleshooting_event_logging.sql
   readme : readme.md  
+configuration:
+  trace_level: OFF
+  log_level: INFO

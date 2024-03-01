@@ -1,0 +1,4 @@
+manifest_version: 1
+artifacts:
+  setup_script: scripts/setup_6_app_upgrade_v2.sql
+  readme : readme.md  
